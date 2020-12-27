@@ -15,6 +15,7 @@ set nu
 syntax on
 
 colo molokai
+set clipboard+=unnamedplus
 
 nnoremap <C-e> :!g++ -o  %:r.out % -std=c++11<Enter>
 nnoremap <C-r> :!./%:r.out
